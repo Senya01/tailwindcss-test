@@ -10,7 +10,10 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    bodyAttrs: {
+      class: 'antialiased text-slate-400 bg-slate-900'
+    }
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -51,7 +54,7 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en'
+      lang: 'ru'
     }
   },
 
